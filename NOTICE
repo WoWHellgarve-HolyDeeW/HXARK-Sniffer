@@ -1,0 +1,28 @@
+HXARK Sniffer - third-party notices
+
+HXARK source uses the MIT license. Dependencies retain their own licenses:
+
+Python: PSF
+cryptography: Apache-2.0 OR BSD-3-Clause; see bundled notices
+cffi: MIT-0
+certifi: MPL-2.0
+PyInstaller: GPL-2.0-or-later with bootloader exception
+Pillow: MIT-CMU
+altgraph, pefile, setuptools: MIT
+packaging: Apache-2.0 OR BSD-2-Clause
+pycparser, pywin32-ctypes: BSD-3-Clause
+PyInstaller hooks: see Apache/GPL notices in the distribution
+
+The build includes installed dependency license files and the Python and HXARK
+licenses. Wireshark and Npcap are not bundled. Setup downloads and verifies the
+official Wireshark installer; the user completes installation under its terms.
+Wireshark uses the GPL. Npcap has separate licensing.
+
+PKT compatibility was checked against WowPacketParser:
+https://github.com/TrinityCore/WowPacketParser
+Protocol and memory-layout research also used static inspection of Ymir.
+No Ymir binary or decompiler output, WPP source or patches, WoW files, real
+captures or session data are included.
+
+Product names and trademarks belong to their respective owners. The HXARK
+license does not grant rights to third-party software or game content.

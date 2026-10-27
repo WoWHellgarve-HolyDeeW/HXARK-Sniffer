@@ -1,0 +1,7 @@
+HXARK Sniffer
+
+Open the sniffer. Wait for Ready. Open WoW and play.
+Close WoW to save. Open captures shows your PKTs.
+
+First run: select Wow.exe if needed. Install capture support with Npcap selected.
+Retail 70575, Windows x64, IPv4. WPP parsing is partial. Keep captures private.
